@@ -1,0 +1,25 @@
+body {
+  background-color: var(--color-background-default);
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.cet-titlebar {
+  color: rgb(125, 129, 143) !important;
+}
+
+.cet-container {
+  padding: 12px;
+}
+
+:root {
+  --color-background-default: #0e161d;
+  --color-background-subtle: #192229;
+  --color-text-default: #ececec;
+  --color-text-subtle: grey;
+  --color-accent-default: #0077cc;
+}

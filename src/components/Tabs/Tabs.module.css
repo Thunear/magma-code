@@ -1,0 +1,38 @@
+.tabs {
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 5;
+}
+
+.tab {
+  border-bottom: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  padding: 12px 14px;
+  border-radius: 2px;
+  color: rgb(238, 238, 238);
+  margin-right: 4px;
+}
+
+.active {
+  background-color: #192229;
+  border-color: var(--color-accent-default);
+}
+
+.folder {
+  font-size: 10px !important;
+  color: grey;
+  margin-right: 8px;
+}
+
+.close {
+  margin-left: 16px;
+  color: grey;
+}
+
+.plus {
+  color: grey;
+  margin-left: 12px;
+}

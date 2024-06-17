@@ -1,0 +1,23 @@
+.sidebar {
+  position: absolute;
+  top: 71px;
+  left: 0;
+  bottom: 0;
+  padding: 0 12px;
+  border-right: 1px solid rgb(46, 47, 48);
+}
+
+.item {
+  height: 44px;
+  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+  color: grey;
+}
+
+.active {
+  background-color: #192229;
+  color: rgb(241, 241, 241);
+}

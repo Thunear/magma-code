@@ -1,0 +1,30 @@
+.tree {
+  position: absolute;
+  left: 70px;
+  top: 70px;
+  bottom: 0;
+  padding: 0 12px;
+  width: 340px;
+}
+
+.search {
+  position: relative;
+}
+
+.searchInput {
+  background-color: #192229;
+  border: none;
+  height: 45px;
+  padding: 12px;
+  width: 100%;
+  padding-left: 45px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  color: var(--color-text-subtle);
+}

@@ -5,9 +5,9 @@
   "description": "My Electron application description",
   "main": ".vite/build/main.js",
   "scripts": {
-    "start": "electron-forge start",
+    "dev": "electron-forge start",
     "package": "electron-forge package",
-    "make": "electron-forge make",
+    "build": "electron-forge make",
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts,.tsx ."
   },
@@ -23,6 +23,8 @@
     "@electron-forge/publisher-github": "^7.4.0",
     "@electron-forge/shared-types": "^7.4.0",
     "@electron/fuses": "^1.8.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "electron": "31.0.1",
@@ -30,7 +32,8 @@
     "eslint-plugin-import": "^2.25.0",
     "ts-node": "^10.0.0",
     "typescript": "~4.5.4",
-    "vite": "^5.0.12"
+    "vite": "^5.0.12",
+    "vite-plugin-node-polyfills": "^0.22.0"
   },
   "keywords": [],
   "author": {
@@ -39,6 +42,14 @@
   },
   "license": "MIT",
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.1"
+    "@electron-forge/maker-dmg": "^7.4.0",
+    "@electron-forge/maker-wix": "^7.4.0",
+    "clsx": "^2.1.1",
+    "custom-electron-titlebar": "^4.2.8",
+    "electron-squirrel-startup": "^1.0.1",
+    "lucide-react": "^0.395.0",
+    "normalize.css": "^8.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   }
 }
